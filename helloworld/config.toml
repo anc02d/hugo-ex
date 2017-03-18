@@ -1,4 +1,4 @@
-baseurl = "http://" + process.env.HUGO_BASEURL
+baseurl = "http://test-site-4-jm-demo-e6fe9f27.apps.thedigitalgarage.io"
 copyright = "All rights reserved - 2017"
 disqusshortname = ""
 languagecode = "en-EN"
