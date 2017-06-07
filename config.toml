@@ -6,6 +6,7 @@ paginate = 5
 pluralizelisttitles = false
 theme = "hugo-material-docs"
 title = "Hello World"
+relativeURL = true
 
 [[menu.main]]
   identifier = "blog"
