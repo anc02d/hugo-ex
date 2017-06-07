@@ -1,4 +1,4 @@
-baseurl = process.env.HUGO_BASEURL
+baseurl = "http://" + process.env.HUGO_BASEURL
 copyright = "All rights reserved - 2017"
 disqusshortname = ""
 languagecode = "en-EN"
