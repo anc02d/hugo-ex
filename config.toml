@@ -1,4 +1,4 @@
-baseurl = "http://" + HUGO_BASEURL
+baseurl = "http://hugo-hello-world-jm-demo-e6fe9f27.apps.thedigitalgarage.io"
 copyright = "All rights reserved - 2017"
 disqusshortname = ""
 languagecode = "en-EN"
