@@ -1,56 +1,77 @@
-copyright = "All rights reserved - 2017"
-disqusshortname = ""
-languagecode = "en-EN"
-paginate = 5
-pluralizelisttitles = false
+languageCode = "en-us"
+title = "Material Docs"
 theme = "hugo-material-docs"
-title = "Hello World"
-
-[[menu.main]]
-  identifier = "blog"
-  name = "Blog"
-  url = "/"
-  weight = -120
-
-[[menu.main]]
-  name = "Github repos"
-  pre = "<h3>Follow me</h3>"
-  url = "https://github.com/thedigitalgarage"
-  weight = 100
-
-[[menu.main]]
-  name = "Twitter timeline"
-  url = "https://twitter.com/vjeantet"
-  weight = 101
-
-[[menu.main]]
-  name = "Flipboard magazines"
-  url = "https://flipboard.com/@vjeantet"
-  weight = 102
-
-[[menu.main]]
-  name = "Keybase (secure msg)"
-  pre = "<h3>Contact me</h3>"
-  url = "https://Keybase.io/vjeantet"
-  weight = 109
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
 
 [params]
-  author = "Valère JEANTET"
-  authorlocation = "Paris, France"
-  authorwebsite = "http://vjeantet.fr"
-  bio = "IT software and Security Engineer, Open source enthusiast."
-  cover = "images/cover_polenord.jpg"
-  description = "Whatever the mind of man can conceive and believe, it can achieve."
-  githubName = "vjeantet"
-  googleAnalyticsUserID = "UA-79101-12"
-  hideHUGOSupport = false
-  logo = "images/logo.png"
-  twitterName = "vjeantet"
+	# General information
+	author = "Digitalcraftsman"
+	description = "A material design theme for documentations."
+	copyright = "Released under the MIT license"
 
-[permalinks]
-  post = "/:slug/"
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
 
-[sitemap]
-  ChangeFreq = ""
-  Filename = "sitemap.xml"
-  Priority = "-1"
+	version = "1.0.0"
+	logo = "images/logo.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "red"
+    	accent  = "teal"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = ""
+	github  = "digitalcraftsman"
+	email   = "hello@email.com"
+
+
+[[menu.main]]
+	name   = "Material"
+	url    = "/"
+	weight = 0
+
+[[menu.main]]
+	name   = "Getting started"
+	url    = "getting-started/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Adding content"
+	url    = "adding-content/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Roadmap"
+	url    = "roadmap/"
+	weight = 30
+
+[[menu.main]]
+	name   = "License"
+	url    = "license/"
+	weight = 40
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
